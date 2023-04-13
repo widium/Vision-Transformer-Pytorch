@@ -1,4 +1,4 @@
 Project/modeling/data/*
 Project/modeling/*.png
 
-.gitignore
+*.gitignore

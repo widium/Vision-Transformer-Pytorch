@@ -46,8 +46,7 @@ img_permuted = img.permute(0, 2, 3, 1)
 
 plt.imshow(img_permuted[0])
 ~~~
-![png](patch_files/patch_6_1.png)
-    
+> ![](https://i.imgur.com/W0VMuUq.png)
 
 
 ### Create Visualization for patch creation on image 
@@ -132,12 +131,14 @@ visualize_img_to_patch(
     patch_size=16
 )
 ~~~ 
-![png](patch_files/patch_9_0.png)
+> ![](https://i.imgur.com/W0VMuUq.png)
+> 
 > Number of Patches : 196        
 > Patch Size : (16, 16)        
 > Number of Patches per Column : 14        
 > Number of Patches per Row : 14
-![png](patch_files/patch_9_2.png)
+>
+> ![](https://i.imgur.com/iVtuspC.png)
     
 
 
@@ -204,7 +205,8 @@ plt.imshow(patch_numpy[0], cmap="viridis")
 
 ~~~
 > torch.Size([1, 3, 14, 14])
-![png](patch_files/patch_12_2.png)
+> 
+> ![](https://i.imgur.com/U3wMgJm.png)
     
 
 
@@ -281,9 +283,7 @@ def visualize_patch_extraction(input_image : Tensor, patches : Tensor)->None:
 ~~~python
 visualize_patch_extraction(input_image=img[0], patches=patches[0])
 ~~~
-> Number of Patches : 196
-![png](patch_files/patch_15_1.png)
-![png](patch_files/patch_15_2.png)
+> ![](https://i.imgur.com/7fK1Skz.png)
     
 
 
@@ -376,7 +376,7 @@ def visualize_patch_tokenized(patches_tokenized : Tensor):
 ~~~python
 visualize_patch_tokenized(patches_tokenized)
 ~~~
-![png](patch_files/patch_21_0.png)
+> ![](https://i.imgur.com/1jWDPYE.png)
     
 
 
@@ -461,7 +461,7 @@ def visualize_tokens_embedding(tokens_embedding : Tensor):
 ~~~python
 visualize_tokens_embedding(tokens_embedding)
 ~~~
-![png](patch_files/patch_27_0.png)
+> ![](https://i.imgur.com/VMGOuR7.png)
     
 
 

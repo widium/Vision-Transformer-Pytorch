@@ -17,7 +17,7 @@ from torch.nn import Parameter
 
 # ******************************************************************************************************************************
 
-class ClassTokenPrepender(Module):
+class ClassTokenPrepender(Module):   
     """
     Create a learnable class token vector and prepend it to the sequence of patch embedding vectors.
     The class token serves as a summary of global information extracted from patches during encoding and
@@ -72,7 +72,7 @@ class ClassTokenPrepender(Module):
 from torch.nn import Module
 from torch.nn import Parameter
 
-class PositionalEmbedding(Module):
+class PositionalEmbedding(Module):  
     """
     Create learnable positional embeddings representing spatial locations of input tokens.
     The positional embeddings have the same size as the input embeddings for effectuate element-wise addition.

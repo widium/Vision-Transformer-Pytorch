@@ -19,7 +19,7 @@ from torch.optim import Optimizer
 from tqdm.auto import tqdm
 from time import perf_counter
 
-from .Tracker import HistoricalTraining
+from .history import HistoricalTraining
 from ..utils.logits import logits_to_class_integer
 
 from .evaluation import evaluation_step
